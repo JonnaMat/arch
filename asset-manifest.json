@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/arch/static/css/main.b4af115d.css",
-    "main.js": "/arch/static/js/main.8a1d0e90.js",
+    "main.css": "/arch/static/css/main.44944db0.css",
+    "main.js": "/arch/static/js/main.28278dd1.js",
     "static/js/453.9d12c40c.chunk.js": "/arch/static/js/453.9d12c40c.chunk.js",
+    "static/media/sun.svg": "/arch/static/media/sun.d663d13b0bf4c2a6a30caf889c9df7c3.svg",
     "index.html": "/arch/index.html",
-    "main.b4af115d.css.map": "/arch/static/css/main.b4af115d.css.map",
-    "main.8a1d0e90.js.map": "/arch/static/js/main.8a1d0e90.js.map",
+    "static/media/moon.svg": "/arch/static/media/moon.1ba490c623bf12770132438d07f5a022.svg",
+    "main.44944db0.css.map": "/arch/static/css/main.44944db0.css.map",
+    "main.28278dd1.js.map": "/arch/static/js/main.28278dd1.js.map",
     "453.9d12c40c.chunk.js.map": "/arch/static/js/453.9d12c40c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4af115d.css",
-    "static/js/main.8a1d0e90.js"
+    "static/css/main.44944db0.css",
+    "static/js/main.28278dd1.js"
   ]
 }

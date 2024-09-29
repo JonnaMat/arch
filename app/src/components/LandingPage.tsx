@@ -26,7 +26,10 @@ const LandingPage = () => {
       <h2 className={`${styles.MovingGradientText} ${styles.Subtitle}`}>
         Lorem ipsum dolor sit amet!
       </h2>
-      <Link to="/blog" className={styles.Text} style={{ color: randomColor }}>
+      <h3 className={styles.Heading} style={{ color: randomColor }}>
+        Discover
+      </h3>
+      <Link to="/blog" style={{ color: randomColor }}>
         Visit Blog
       </Link>
     </div>

@@ -35,12 +35,13 @@
   font-weight: normal;
   opacity: 0.8;
   font-size: 3rem;
+  margin-bottom: 200px;
 }
 
-.Text {
+.Heading {
   font-weight: light;
-  opacity: 0.5;
-  font-size: 1.5rem;
+  opacity: 0.8;
+  font-size: 2rem;
 }
 
 @keyframes MovingGradient {

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
+
 :root {
   color-scheme: light dark;
   --background: light-dark(white, black);
@@ -5,14 +7,19 @@
   --text-color-dimmed: light-dark(hsl(220, 15%, 70%), hsl(220, 15%, 30%));
   --sun-moon-fill-color: var(--text-color-dimmed);
   --margin: 10px;
+
+  --purple: light-dark(#5e4b8a, #bd93f9);
+  --blue: light-dark(#0a74b9, #8be9fd);
+  --pink: light-dark(#c84a83, #ff79c6);
+  --orange: light-dark(#d68a3a, #ffb86c);
+  --green: light-dark(#3baf4f, #50fa7b);
+  --yellow: light-dark(#b9b300, #f1fa8c);
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "JetBrains Mono", monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

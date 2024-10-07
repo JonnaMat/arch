@@ -2,13 +2,20 @@
   border-radius: 16px; /* outer border = inner border + border width */
   box-sizing: border-box;
   border: 10px solid var(--purple); /* outer border = inner border + border width */
-  box-shadow: 0 0px 8px var(--purple);
   width: 100%;
   aspect-ratio: 25/35;
+  opacity: 0.8;
+}
+
+/* TODO only add opacity to border */
+.Wrapper:hover {
+  box-shadow: 0 0px 8px var(--purple);
+  opacity: 1;
 }
 
 .Card {
   background-color: var(--card-background);
+  opacity: 1 !important;
   padding: 20px;
   width: 100%;
   height: 100%;

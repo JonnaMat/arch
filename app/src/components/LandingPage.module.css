@@ -42,7 +42,7 @@
 }
 
 .Title {
-  font-size: 6rem;
+  font-size: 8rem;
   font-weight: bold;
   letter-spacing: 0.5rem;
   margin-bottom: 10px; /* Space between title and subtitle */
@@ -51,7 +51,7 @@
 .Subtitle {
   font-weight: normal;
   opacity: 0.8;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 200px;
 }
 

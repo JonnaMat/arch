@@ -1,15 +1,20 @@
 .LandingPage {
   height: 100dvh;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
 }
 
-.MovingGradientText {
+.Intro {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.MovingGradientBackground {
   background: linear-gradient(
-    270deg,
+    50deg,
     var(--orange),
     var(--yellow),
     var(--pink),
@@ -17,11 +22,15 @@
     var(--blue),
     var(--green)
   );
+  width: 100%;
   background-size: 400% 400%;
+  animation: MovingGradient 18s ease infinite; /* Animate gradient */
+}
+
+.GradientText {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: MovingGradient 18s ease infinite; /* Animate gradient */
 }
 
 .Title {

@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  background-color: var(--background);
-  color: var(--text-color);
+
   height: 100dvh;
   width: 100dvw;
   overflow-y: hidden;

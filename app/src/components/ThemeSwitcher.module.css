@@ -5,6 +5,7 @@
 }
 
 .IconContainer {
+  z-index: 100;
   width: 24px;
   aspect-ratio: 1;
   position: absolute;

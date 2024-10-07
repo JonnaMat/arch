@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeSwitcher from "./ThemeSwitcher";
 import styles from "./LandingPage.module.css";
+import CardGrid from "./CardGrid";
 
 const LandingPage = () => {
   const colors = [
@@ -37,11 +38,14 @@ const LandingPage = () => {
       <h3 className={styles.Heading} style={{ color: randomColor }}>
         Discover
       </h3>
-      <Link to="/blog" style={{ color: randomColor }}>
-        Visit Blog
-      </Link>
+      <div className={styles.GridContainer}>
+        <CardGrid />
+      </div>
     </div>
   );
 };
 
+/*<Link to="/blog" style={{ color: randomColor }}>
+        Visit Blog
+      </Link>*/
 export default LandingPage;

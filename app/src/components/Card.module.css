@@ -1,0 +1,28 @@
+.Wrapper {
+  border-radius: 16px; /* outer border = inner border + border width */
+  box-sizing: border-box;
+  border: 10px solid var(--purple); /* outer border = inner border + border width */
+  box-shadow: 0 0px 8px var(--purple);
+  width: 100%;
+  aspect-ratio: 25/35;
+}
+
+.Card {
+  background-color: var(--card-background);
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px; /* outer border = inner border + border width */
+  box-sizing: border-box;
+}
+
+.Card h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+.Card p {
+  font-size: 1rem;
+  color: var(--text-color);
+}

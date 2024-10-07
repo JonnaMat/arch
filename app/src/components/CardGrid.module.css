@@ -1,0 +1,9 @@
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Adjusts based on screen size */
+  gap: 30px; /* Space between grid items */
+  padding: 20px; /* Space to sides of screen */
+}

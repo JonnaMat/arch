@@ -3,17 +3,25 @@
 :root {
   color-scheme: light dark;
   --background: light-dark(white, black);
+
+  /* generated dark with https://maketintsandshades.com/#44475a */
+  /* generated light with https://maketintsandshades.com/#d7d4c8 */
+  --background-dimmed-0: light-dark(#d7d4c8, #44475a);
+  --background-dimmed-80: light-dark(#f7f6f4, #0e0e12);
+  --card-background: var(--background-dimmed-80);
+
   --text-color: light-dark(black, white);
-  --text-color-dimmed: light-dark(hsl(220, 15%, 70%), hsl(220, 15%, 30%));
-  --sun-moon-fill-color: var(--text-color-dimmed);
+
+  --sun-moon-fill-color: var(--background-dimmed-0);
   --margin: 10px;
 
-  --purple: light-dark(#5e4b8a, #bd93f9);
-  --blue: light-dark(#0a74b9, #8be9fd);
-  --pink: light-dark(#c84a83, #ff79c6);
-  --orange: light-dark(#d68a3a, #ffb86c);
-  --green: light-dark(#3baf4f, #50fa7b);
-  --yellow: light-dark(#b9b300, #f1fa8c);
+  /* light shade are 40% of dark shade: https://maketintsandshades.com/#dark-color */
+  --purple: light-dark(#5e437c, #9c6fcf);
+  --blue: light-dark(#40767f, #6ac5d3);
+  --pink: light-dark(#85335e, #de559c);
+  --orange: light-dark(#855928, #de9442);
+  --green: light-dark(#1c8031, #2fd651);
+  --yellow: light-dark(#7d803b, #d0d662);
 }
 
 body {

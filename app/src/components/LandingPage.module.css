@@ -1,23 +1,29 @@
 .LandingPage {
   display: flex;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
   width: 100%;
   min-width: 100px;
   box-sizing: border-box;
-  padding: 10%;
-}
-
-.GridContainer {
-  width: 100%;
-  padding-top: 10px;
+  padding-right: 10%;
+  padding-top: 0;
+  overflow: hidden;
+  padding-bottom: 0;
 }
 
 .Intro {
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   width: 100%;
-  overflow: hidden;
+  height: 100dvh;
+
+  > :last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
 }
 
 .MovingGradientBackground {
@@ -42,23 +48,33 @@
 }
 
 .Title {
-  font-size: 8rem;
   font-weight: bold;
-  letter-spacing: 0.5rem;
-  margin-bottom: 10px; /* Space between title and subtitle */
+  text-align: left;
+  letter-spacing: 1rem;
+  font-size: 20rem;
+  font-family: "Galgo", normal;
+  margin-top: 4rem;
+  line-height: 0.7;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .Title {
+    font-size: 14rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Title {
+    font-size: 10rem;
+  }
 }
 
 .Subtitle {
   font-weight: normal;
   opacity: 0.8;
   font-size: 4rem;
-  margin-bottom: 200px;
-}
-
-.Heading {
-  font-weight: light;
-  opacity: 0.8;
-  font-size: 2rem;
 }
 
 @keyframes MovingGradient {

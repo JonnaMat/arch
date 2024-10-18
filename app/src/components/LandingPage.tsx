@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeSwitcher from "./ThemeSwitcher";
 import styles from "./LandingPage.module.css";
-import CardGrid from "./CardGrid";
 
 const LandingPage = () => {
   const colors = [
@@ -18,28 +17,19 @@ const LandingPage = () => {
 
   const randomColor = colors[randomIndex];
 
-  console.log("color", randomColor);
-
   return (
     <div className={styles.LandingPage}>
-      <ThemeSwitcher />
       <div className={styles.Intro}>
-        <h1
-          className={`${styles.GradientText} ${styles.MovingGradientBackground} ${styles.Title}`}
-        >
-          Arch
-        </h1>
         <h2
           className={`${styles.GradientText} ${styles.MovingGradientBackground} ${styles.Subtitle}`}
         >
           Lorem ipsum dolor sit amet!
         </h2>
-      </div>
-      <h3 className={styles.Heading} style={{ color: randomColor }}>
-        Discover
-      </h3>
-      <div className={styles.GridContainer}>
-        <CardGrid />
+        <h1
+          className={`${styles.GradientText} ${styles.MovingGradientBackground} ${styles.Title}`}
+        >
+          Arch.
+        </h1>
       </div>
     </div>
   );

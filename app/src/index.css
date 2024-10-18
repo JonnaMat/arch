@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=JetBrains+Mono");
 
+@font-face {
+  font-family: "GalgoCondensed";
+  src: url("./fonts/Galgo.ttf") format("truetype"); /* Adjust path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   color-scheme: light dark;
   --background: light-dark(white, black);
